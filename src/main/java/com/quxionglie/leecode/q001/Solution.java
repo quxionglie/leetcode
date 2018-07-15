@@ -18,6 +18,6 @@ public class Solution {
             }
             map.put(nums[i], i);
         }
-        return null;
+        throw new IllegalArgumentException("No two sum solution");
     }
 }
